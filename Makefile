@@ -11,4 +11,4 @@ release: push
 	@git commit -m "Update  version ${MUSH_DEMO_VERSION}" || echo "No changes to commit"
 	@git tag -fa "v${MUSH_DEMO_VERSION}" -m "${MUSH_DEMO_VERSION}"
 	@git push origin --tags -f
-	@mush info mush-demo
+
