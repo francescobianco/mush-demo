@@ -1,5 +1,5 @@
 
-MUSH_DEMO_VERSION := 0.3.0
+MUSH_DEMO_VERSION := $$(shell cat Manifest.toml | grep version | head -n 1 | awk -F '"' '{print $$2}')
 
 push:
 	@git add .
