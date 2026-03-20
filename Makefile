@@ -1,5 +1,5 @@
 
-MUSH_DEMO_VERSION := 0.2.0
+MUSH_DEMO_VERSION := 0.3.0
 
 push:
 	@git add .
